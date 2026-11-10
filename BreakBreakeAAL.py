@@ -26,7 +26,7 @@ class Ball(GameObject):
             y - self.radius,
             x + self.radius,
             y + self.radius,
-            fill="white",
+            fill="#FF80AB", // mengubah warna bolanya
         )
         super(Ball, self).__init__(canvas, item)
 
