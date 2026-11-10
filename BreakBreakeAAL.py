@@ -26,7 +26,7 @@ class Ball(GameObject):
             y - self.radius,
             x + self.radius,
             y + self.radius,
-            fill="#FF80AB", // mengubah warna bolanya
+            fill="#FF80AB", 
         )
         super(Ball, self).__init__(canvas, item)
 
@@ -71,7 +71,7 @@ class Paddle(GameObject):
             y - self.height / 2,
             x + self.width / 2,
             y + self.height / 2,
-            fill="yellow",
+           fill="#F48FB1",
         )
         super(Paddle, self).__init__(canvas, item)
 
@@ -119,7 +119,7 @@ class Game(tk.Frame):
         self.lives = 3
         self.width = 610
         self.height = 400
-        self.canvas = tk.Canvas( // mengubah background menjadi pink
+        self.canvas = tk.Canvas( 
         self,
         bg="#FCE4EC",
         width=self.width,
